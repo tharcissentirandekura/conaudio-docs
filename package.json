@@ -6,11 +6,14 @@
     "docs:dev": "vitepress --host 0.0.0.0",
     "docs:build": "vitepress build ",
     "docs:preview": "vitepress preview ",
-    "deploy:dev":"npx netlify dev",
-    "deploy:preview":"npx netlify deploy",
+    "deploy:dev": "npx netlify dev",
+    "deploy:preview": "npx netlify deploy",
     "deploy:prod": "npx netlify deploy --prod"
   },
-  "dependencies": {
-    "vitepress": "latest"
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "overrides": {
+    "vite": "6.4.2"
   }
 }
