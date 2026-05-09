@@ -1,0 +1,43 @@
+:root {
+  --vp-c-bg: #f7f8ef;
+  --vp-c-bg-alt: #eef3df;
+  --vp-c-bg-soft: #e3ead0;
+
+  --vp-c-brand-1: #6f8f3f;
+  --vp-c-brand-2: #7fa04a;
+  --vp-c-brand-3: #9bb96b;
+}
+
+.dark {
+  --vp-c-bg: #12180f;
+  --vp-c-bg-alt: #182012;
+  --vp-c-bg-soft: #202a18;
+
+  --vp-c-brand-1: #b7d87a;
+  --vp-c-brand-2: #9fbe65;
+  --vp-c-brand-3: #7f9f4d;
+}
+
+.VPHome {
+  background:
+    radial-gradient(circle at 50% 16%, rgba(155, 185, 107, 0.18), transparent 34rem),
+    repeating-linear-gradient(
+      105deg,
+      transparent 0 18px,
+      rgba(111, 143, 63, 0.16) 19px,
+      transparent 20px 36px
+    );
+  background-size: auto, 42px 42px;
+}
+
+.dark .VPHome {
+  background:
+    radial-gradient(circle at 50% 16%, rgba(183, 216, 122, 0.12), transparent 34rem),
+    repeating-linear-gradient(
+      105deg,
+      transparent 0 18px,
+      rgba(183, 216, 122, 0.12) 19px,
+      transparent 20px 36px
+    );
+  background-size: auto, 42px 42px;
+}

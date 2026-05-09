@@ -1,10 +1,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    title: 'Conaudio Docs',
-    description: 'Conaudio migration and development documentation',
+    title: 'Tharcisse work docs',
+    description: 'This is a living grimoire of my work documentation. I use it to document the work I do especially complex tasks that requires me to create prd before diving deep in the coding.',
 
     themeConfig: {
+        search: {
+            provider: 'local'
+        },
+
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Migrations', link: '/migrations/' },

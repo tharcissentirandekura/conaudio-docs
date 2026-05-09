@@ -3,11 +3,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev .",
-    "docs:build": "vitepress build .",
-    "docs:preview": "vitepress preview ."
+    "docs:dev": "vitepress --host 0.0.0.0",
+    "docs:build": "vitepress build ",
+    "docs:preview": "vitepress preview ",
+    "deploy:dev":"npx netlify dev",
+    "deploy:preview":"npx netlify deploy",
+    "deploy:prod": "npx netlify deploy --prod"
   },
   "dependencies": {
-    "vitepress": "^1.6.4"
+    "vitepress": "latest"
   }
 }

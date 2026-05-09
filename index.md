@@ -1,3 +1,26 @@
+---
+layout: home
+
+hero:
+  name: 
+  text: A living grimoire of my work (coding, math,...)
+  tagline: Guides for building, testing, and migrating projects with confidence.
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /migrations/
+    - theme: alt
+      text: Testing Workflow
+      link: /testing/
+
+features:
+  - title: Migration Guides
+    details: Server, database, model, and data-layer notes for the Saflib migration.
+  - title: Testing Workflow
+    details: Client testing, request operation testing, and validation checklists.
+  - title: Developer Notes
+    details: Docker, Saflib tooling, implementation plans, and active todos.
+---
 # Conaudio documentions
 
 This site is the working documentation for Conaudio migration, API parity, and testing and more

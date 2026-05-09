@@ -1,0 +1,9 @@
+[build]
+    command = "npm run docs:build"
+    publish = ".vitepress/dist"
+
+[dev]
+    command = "npm run docs:dev"
+    port = 8888
+    targetPort = 5173
+    
