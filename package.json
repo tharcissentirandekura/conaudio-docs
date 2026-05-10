@@ -2,6 +2,9 @@
   "name": "@conaudio2/conaudio-docs",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "docs:dev": "vitepress --host 0.0.0.0",
     "docs:build": "vitepress build ",

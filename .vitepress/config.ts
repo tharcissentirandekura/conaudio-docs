@@ -13,6 +13,7 @@ export default defineConfig({
             { text: 'Home', link: '/' },
             { text: 'Migrations', link: '/migrations/' },
             { text: 'Testing', link: '/testing/' },
+            { text: 'CI / CD', link: '/ci-cd' },
             { text: 'Development', link: '/dev-plan/dev-docs' },
             { text: 'Dev tools (Docker)', link: '/dev-tools/' }
         ],
@@ -22,6 +23,7 @@ export default defineConfig({
                 text: 'Start',
                 items: [
                     { text: 'Documentation Home', link: '/' },
+                    { text: 'CI / CD', link: '/ci-cd' },
                     { text: 'Writing Style Guide', link: '/docs-style' },
                     { text: 'Migration Overview', link: '/migrations/' },
                     { text: 'Testing Overview', link: '/testing/' }

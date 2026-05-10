@@ -27,6 +27,7 @@ This site is the working documentation for Conaudio migration, API parity, and t
 
 ## Quick Start
 
+- [CI / CD (GitHub Actions + Netlify)](/ci-cd)
 - Read the [Writing Style Guide](/docs-style) before creating new docs pages.
 - Read [Migrations](/migrations/) for the source-of-truth migration map.
 - Use [Database HTTP API](/migrations/db/) when adding or updating OpenAPI paths.
@@ -46,6 +47,7 @@ This site is the working documentation for Conaudio migration, API parity, and t
 
 ### Development Notes
 
+- [CI / CD (GitHub Actions + Netlify)](/ci-cd)
 - [Development notes](/dev-plan/dev-docs)
 - [Node and TypeScript server refactoring](/dev-plan/node-typescript-server)
 - [Active todos](/dev-plan/todos)
