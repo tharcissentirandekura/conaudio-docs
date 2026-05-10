@@ -44,7 +44,8 @@ export default defineConfig({
                     { text: 'Server Migration', link: '/migrations/server' },
                     { text: 'Data Layer Migration', link: '/migrations/data-layer' },
                     { text: 'Models Notes', link: '/migrations/models/' },
-                    { text: 'Collections Notes', link: '/migrations/collections/' }
+                    { text: 'Collections Notes', link: '/migrations/collections/' },
+                    { text: 'Views migration', link: '/migrations/views' }
                 ]
             },
             {

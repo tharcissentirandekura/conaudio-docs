@@ -18,6 +18,7 @@ Migration docs in this folder should describe:
 - [Data layer migration](/migrations/data-layer) for schema and persistence migration strategy.
 - [Models notes](/migrations/models/)
 - [Collections notes](/migrations/collections/)
+- [Views migration](/migrations/views)
 
 ## Legacy to target map
 
